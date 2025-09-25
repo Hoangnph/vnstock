@@ -7,9 +7,10 @@ from .api.company import Company
 from .api.financial import Finance
 from .api.listing import Listing
 from .api.trading import Trading
+from .api.foreign_trade import ForeignTrade
 from .api.screener import Screener
 from .explorer.fmarket import Fund
 
-__all__ = ["Vnstock", "Quote", "Listing", "Company", "Finance", "Trading", "Screener", "Fund"]
+__all__ = ["Vnstock", "Quote", "Listing", "Company", "Finance", "Trading", "Screener", "Fund", "ForeignTrade"]
 
 vnai.setup()

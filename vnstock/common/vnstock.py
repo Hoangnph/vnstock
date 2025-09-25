@@ -65,3 +65,8 @@ class Vnstock:
     
     def fund(self, source: Optional[str] = "FMARKET"):
         return Fund(source)
+
+    # Convenience accessor for future integration
+    # def foreign_trade(self):
+    #     """Placeholder for unified foreign trade interface if needed."""
+    #     raise NotImplementedError("Use ForeignTrade(source=...).daily(...) for now.")
