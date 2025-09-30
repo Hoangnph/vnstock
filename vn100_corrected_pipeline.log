@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/macintoshhd/Project/Project/stockAI/temp/run_corrected_vn100_pipeline.py", line 17, in <module>
+    from fastapi.pipeline.stock_data_pipeline import run_full_pipeline
+ModuleNotFoundError: No module named 'fastapi.pipeline'

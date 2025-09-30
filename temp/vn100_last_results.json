@@ -1,0 +1,5111 @@
+{
+  "total_symbols": 100,
+  "processed_count": 100,
+  "error_count": 0,
+  "success_rate": 100.0,
+  "duration_seconds": 264.999737,
+  "start_time": "2025-09-29T17:08:04.333100",
+  "end_time": "2025-09-29T17:12:29.332837",
+  "results": [
+    {
+      "symbol": "ACB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "ACB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:04.481874",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 25.8,
+          "low_min": 25.35,
+          "volume_avg": 8265200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "ACB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "ANV",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "ANV",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:11.144995",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 28.25,
+          "low_min": 27.55,
+          "volume_avg": 1354600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "ANV",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BCM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BCM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:13.831251",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 67.7,
+          "low_min": 66.6,
+          "volume_avg": 144100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BCM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BID",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BID",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:16.434137",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 40.55,
+          "low_min": 40.1,
+          "volume_avg": 2110500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BID",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BMP",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BMP",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:19.017920",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 145.0,
+          "low_min": 141.3,
+          "volume_avg": 150800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BMP",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BSI",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BSI",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:21.655430",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 46.55,
+          "low_min": 45.6,
+          "volume_avg": 659200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BSI",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BVH",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BVH",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:24.396113",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 56.7,
+          "low_min": 55.6,
+          "volume_avg": 208800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BVH",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "BWE",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "BWE",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:26.952875",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 49.1,
+          "low_min": 48.0,
+          "volume_avg": 84100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "BWE",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CII",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CII",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:29.674808",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 27.9,
+          "low_min": 26.5,
+          "volume_avg": 25050000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CII",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CMG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CMG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:32.308767",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 39.7,
+          "low_min": 39.4,
+          "volume_avg": 292400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CMG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CTD",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CTD",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:34.933263",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 83.0,
+          "low_min": 80.5,
+          "volume_avg": 810000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CTD",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CTG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CTG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:37.633449",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 51.2,
+          "low_min": 50.4,
+          "volume_avg": 4392900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CTG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CTR",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CTR",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:40.163583",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 90.6,
+          "low_min": 89.1,
+          "volume_avg": 222700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CTR",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "CTS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "CTS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:42.807325",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 42.0,
+          "low_min": 40.1,
+          "volume_avg": 2917200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "CTS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DBC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DBC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:45.419714",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 28.1,
+          "low_min": 27.3,
+          "volume_avg": 5280600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DBC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DCM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DCM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:48.057913",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 37.9,
+          "low_min": 37.4,
+          "volume_avg": 1460800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DCM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DGC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DGC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:50.727343",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 95.2,
+          "low_min": 94.0,
+          "volume_avg": 1605100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DGC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DGW",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DGW",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:53.370469",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 41.6,
+          "low_min": 41.0,
+          "volume_avg": 996900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DGW",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DIG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DIG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:55.886217",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 25.95,
+          "low_min": 24.4,
+          "volume_avg": 31418300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DIG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DPM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DPM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:08:58.398855",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 26.3,
+          "low_min": 26.0,
+          "volume_avg": 1571800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DPM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DSE",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DSE",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:00.924205",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 28.8,
+          "low_min": 28.4,
+          "volume_avg": 526500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DSE",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DXG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DXG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:03.535940",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 22.75,
+          "low_min": 21.6,
+          "volume_avg": 48672000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DXG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "DXS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "DXS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:06.092193",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 12.75,
+          "low_min": 12.15,
+          "volume_avg": 3431300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "DXS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "EIB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "EIB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:08.612445",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 25.95,
+          "low_min": 25.4,
+          "volume_avg": 4457700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "EIB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "EVF",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "EVF",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:11.253183",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 13.4,
+          "low_min": 13.05,
+          "volume_avg": 4025400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "EVF",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "FPT",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "FPT",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:13.854017",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 97.8,
+          "low_min": 95.5,
+          "volume_avg": 10430900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "FPT",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "FRT",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "FRT",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:16.540182",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 129.9,
+          "low_min": 128.0,
+          "volume_avg": 407700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "FRT",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "FTS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "FTS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:19.020206",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 36.85,
+          "low_min": 36.2,
+          "volume_avg": 1176900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "FTS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "GAS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "GAS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:21.678984",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 62.0,
+          "low_min": 61.4,
+          "volume_avg": 381300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "GAS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "GEE",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "GEE",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:24.286496",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 118.7,
+          "low_min": 111.4,
+          "volume_avg": 1869900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "GEE",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "GEX",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "GEX",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:26.872213",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 55.5,
+          "low_min": 53.0,
+          "volume_avg": 10053200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "GEX",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "GMD",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "GMD",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:29.467732",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 69.9,
+          "low_min": 68.5,
+          "volume_avg": 2787200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "GMD",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "GVR",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "GVR",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:32.064985",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 28.7,
+          "low_min": 28.25,
+          "volume_avg": 827200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "GVR",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HAG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HAG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:34.694923",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 16.65,
+          "low_min": 15.9,
+          "volume_avg": 16255200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HAG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HCM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HCM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:37.350027",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 26.9,
+          "low_min": 26.2,
+          "volume_avg": 7253400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HCM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HDB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HDB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:40.085299",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 31.1,
+          "low_min": 29.8,
+          "volume_avg": 13058200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HDB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HDC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HDC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:42.712593",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 37.5,
+          "low_min": 36.1,
+          "volume_avg": 3216800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HDC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HDG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HDG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:45.229289",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 34.3,
+          "low_min": 32.8,
+          "volume_avg": 4334200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HDG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HHV",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HHV",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:47.757327",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 17.35,
+          "low_min": 16.3,
+          "volume_avg": 22310200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HHV",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HPG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HPG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:50.286865",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 28.9,
+          "low_min": 28.4,
+          "volume_avg": 38831200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HPG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HSG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HSG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:52.884924",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 19.55,
+          "low_min": 19.05,
+          "volume_avg": 3960200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HSG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "HT1",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "HT1",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:55.642241",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 17.75,
+          "low_min": 17.2,
+          "volume_avg": 312000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "HT1",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "IMP",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "IMP",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:09:58.219834",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 53.1,
+          "low_min": 52.6,
+          "volume_avg": 22600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "IMP",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "KBC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "KBC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:00.842432",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 37.7,
+          "low_min": 37.3,
+          "volume_avg": 4529800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "KBC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "KDC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "KDC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:03.425749",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 52.4,
+          "low_min": 51.2,
+          "volume_avg": 348800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "KDC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "KDH",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "KDH",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:06.039082",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 34.95,
+          "low_min": 34.0,
+          "volume_avg": 2799400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "KDH",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "KOS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "KOS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:08.665025",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 42.15,
+          "low_min": 40.7,
+          "volume_avg": 366400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "KOS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "LPB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "LPB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:11.266383",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 48.5,
+          "low_min": 47.35,
+          "volume_avg": 2004000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "LPB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "MBB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "MBB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:13.849527",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 26.35,
+          "low_min": 26.1,
+          "volume_avg": 16253000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "MBB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "MSB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "MSB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:16.386944",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 13.2,
+          "low_min": 13.05,
+          "volume_avg": 5932600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "MSB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "MSN",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "MSN",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:19.014355",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 82.5,
+          "low_min": 81.3,
+          "volume_avg": 4298200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "MSN",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "MWG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "MWG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:21.558369",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 77.9,
+          "low_min": 76.6,
+          "volume_avg": 6021900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "MWG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "NAB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "NAB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:24.324398",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 14.95,
+          "low_min": 14.7,
+          "volume_avg": 1166800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "NAB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "NKG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "NKG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:26.940151",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 18.5,
+          "low_min": 18.15,
+          "volume_avg": 8920200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "NKG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "NLG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "NLG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:29.551460",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 41.95,
+          "low_min": 41.2,
+          "volume_avg": 4085900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "NLG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "NT2",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "NT2",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:32.062683",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 24.5,
+          "low_min": 23.6,
+          "volume_avg": 1908400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "NT2",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "OCB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "OCB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:34.700796",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 12.8,
+          "low_min": 12.65,
+          "volume_avg": 1216000.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "OCB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PAN",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PAN",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:37.309592",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 32.4,
+          "low_min": 31.75,
+          "volume_avg": 539100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PAN",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PC1",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PC1",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:39.899037",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 26.25,
+          "low_min": 25.7,
+          "volume_avg": 1367700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PC1",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PDR",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PDR",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:42.525257",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 24.9,
+          "low_min": 23.85,
+          "volume_avg": 20538200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PDR",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PHR",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PHR",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:45.138147",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 56.3,
+          "low_min": 54.9,
+          "volume_avg": 199400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PHR",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PLX",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PLX",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:47.753423",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 35.3,
+          "low_min": 34.65,
+          "volume_avg": 1020300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PLX",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PNJ",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PNJ",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:50.450595",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 85.0,
+          "low_min": 83.4,
+          "volume_avg": 285800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PNJ",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "POW",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "POW",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:53.204991",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 15.1,
+          "low_min": 14.7,
+          "volume_avg": 6885100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "POW",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PPC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PPC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:55.899956",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 10.8,
+          "low_min": 10.7,
+          "volume_avg": 356100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PPC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PTB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PTB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:10:58.528179",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 48.95,
+          "low_min": 47.3,
+          "volume_avg": 294300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PTB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PVD",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PVD",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:01.019356",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 23.05,
+          "low_min": 22.5,
+          "volume_avg": 3724800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PVD",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "PVT",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "PVT",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:03.664073",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 18.65,
+          "low_min": 18.4,
+          "volume_avg": 2635900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "PVT",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "REE",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "REE",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:06.325835",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 66.5,
+          "low_min": 65.0,
+          "volume_avg": 822400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "REE",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SAB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SAB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:08.947333",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 45.7,
+          "low_min": 45.35,
+          "volume_avg": 571100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SAB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SBT",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SBT",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:11.539453",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 24.1,
+          "low_min": 23.8,
+          "volume_avg": 920200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SBT",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SCS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SCS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:14.211437",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 61.5,
+          "low_min": 59.4,
+          "volume_avg": 199700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SCS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SHB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SHB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:16.866042",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 17.5,
+          "low_min": 16.8,
+          "volume_avg": 78599700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SHB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SIP",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SIP",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:19.490006",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 57.6,
+          "low_min": 56.0,
+          "volume_avg": 490100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SIP",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SJS",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SJS",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:22.207888",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 73.0,
+          "low_min": 71.0,
+          "volume_avg": 102500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SJS",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SSB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SSB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:24.905706",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 19.5,
+          "low_min": 19.05,
+          "volume_avg": 2517300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SSB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SSI",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SSI",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:27.567094",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 38.2,
+          "low_min": 37.2,
+          "volume_avg": 34409300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SSI",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "STB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "STB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:30.283263",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 56.6,
+          "low_min": 55.4,
+          "volume_avg": 5361700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "STB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "SZC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "SZC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:32.926800",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 35.0,
+          "low_min": 34.4,
+          "volume_avg": 586900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "SZC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "TCB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "TCB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:35.567348",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 38.8,
+          "low_min": 38.4,
+          "volume_avg": 10121500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "TCB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "TCH",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "TCH",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:38.304327",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 22.15,
+          "low_min": 21.55,
+          "volume_avg": 6380600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "TCH",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "TLG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "TLG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:40.931508",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 53.3,
+          "low_min": 52.3,
+          "volume_avg": 104600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "TLG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "TPB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "TPB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:43.611792",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 19.1,
+          "low_min": 18.65,
+          "volume_avg": 7329400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "TPB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VCB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VCB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:46.236828",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 62.9,
+          "low_min": 62.4,
+          "volume_avg": 2782900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VCB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VCG",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VCG",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:48.878544",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 29.1,
+          "low_min": 27.7,
+          "volume_avg": 16864100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VCG",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VCI",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VCI",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:51.481829",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 43.5,
+          "low_min": 42.5,
+          "volume_avg": 4641100.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VCI",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VGC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VGC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:54.111553",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 60.0,
+          "low_min": 57.2,
+          "volume_avg": 1091400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VGC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VHC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VHC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:56.796367",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 58.2,
+          "low_min": 55.5,
+          "volume_avg": 1764900.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VHC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VHM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VHM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:11:59.416281",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 105.3,
+          "low_min": 97.6,
+          "volume_avg": 6464700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VHM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VIB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VIB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:02.135927",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 19.95,
+          "low_min": 19.65,
+          "volume_avg": 7070500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VIB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VIC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VIC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:04.746809",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 174.8,
+          "low_min": 161.0,
+          "volume_avg": 2445600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VIC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VIX",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VIX",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:07.396472",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 36.7,
+          "low_min": 35.5,
+          "volume_avg": 17398800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VIX",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VJC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VJC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:10.006800",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 132.5,
+          "low_min": 128.4,
+          "volume_avg": 1784400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VJC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VND",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VND",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:12.696896",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 22.45,
+          "low_min": 21.8,
+          "volume_avg": 17837200.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VND",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VNM",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VNM",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:15.340049",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 61.2,
+          "low_min": 60.2,
+          "volume_avg": 5130400.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VNM",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VPB",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VPB",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:17.937946",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 31.2,
+          "low_min": 30.05,
+          "volume_avg": 33075500.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VPB",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VPI",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VPI",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:20.661221",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 56.9,
+          "low_min": 55.1,
+          "volume_avg": 1700700.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VPI",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VRE",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VRE",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:23.221959",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 30.05,
+          "low_min": 28.8,
+          "volume_avg": 4493600.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VRE",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VSC",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VSC",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:25.942511",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 32.45,
+          "low_min": 30.3,
+          "volume_avg": 13500800.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VSC",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    },
+    {
+      "symbol": "VTP",
+      "success": true,
+      "records_count": 1,
+      "date_range": {
+        "start": "2025-09-29",
+        "end": "2025-09-29"
+      },
+      "metadata": {
+        "symbol": "VTP",
+        "start_date": "2025-09-29",
+        "end_date": "2025-09-29",
+        "interval": "1D",
+        "source": "VCI",
+        "include_foreign": true,
+        "timestamp": "2025-09-29T17:12:28.725225",
+        "price_records": 1,
+        "foreign_records": 0,
+        "final_records": 1,
+        "columns": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "volume",
+          "foreign_buy_shares",
+          "foreign_sell_shares",
+          "foreign_net_shares"
+        ],
+        "date_range": {
+          "start": "2025-09-29",
+          "end": "2025-09-29"
+        },
+        "price_stats": {
+          "high_max": 100.1,
+          "low_min": 98.0,
+          "volume_avg": 298300.0
+        }
+      },
+      "attempt": 1,
+      "ssi_verify": {
+        "ok": true,
+        "symbol": "VTP",
+        "from_date": "2025-09-29",
+        "to_date": "2025-09-29",
+        "status_code": 200,
+        "items": 1,
+        "message": "ok"
+      }
+    }
+  ]
+}

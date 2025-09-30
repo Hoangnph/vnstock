@@ -1,0 +1,101 @@
+symbol,rank,company_name_vi,company_name_en,exchange,ref_price,ceiling,floor,source,verified,updated_date
+ACB,1,Ngân hàng Thương mại Cổ phần Á Châu,Asia Commercial Joint Stock Bank,hose,25650,27400,23900,ssi_api_official,True,2025-09-27
+ANV,2,Công ty Cổ phần Nam Việt,Nam Viet Corporation,hose,28150,30100,26200,ssi_api_official,True,2025-09-27
+BCM,3,Tổng Công ty Đầu tư và Phát triển Công nghiệp - CTCP,Investment and Industrial Development Joint Stock Corporation,hose,67400,72100,62700,ssi_api_official,True,2025-09-27
+BID,4,Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam,Joint Stock Commercial Bank for Investment and Development of Vietnam,hose,40900,43750,38050,ssi_api_official,True,2025-09-27
+BMP,5,Công ty Cổ phần Nhựa Bình Minh,Binh Minh Plastics Joint Stock Company,hose,148000,158300,137700,ssi_api_official,True,2025-09-27
+BSI,6,Công ty Cổ phần Chứng khoán BIDV,BIDV Securities Joint Stock Company,hose,47200,50500,43900,ssi_api_official,True,2025-09-27
+BVH,7,Tập đoàn Bảo Việt,BaoViet Holdings,hose,56500,60400,52600,ssi_api_official,True,2025-09-27
+BWE,8,Công ty Cổ phần - Tổng Công ty Nước – Môi trường Bình Dương,Binh Duong Water - Environment Corporation - Joint Stock Company,hose,49200,52600,45800,ssi_api_official,True,2025-09-27
+CII,9,Công ty Cổ phần Đầu tư Hạ tầng Kỹ thuật TP.HCM,Ho Chi Minh City Infrastructure Investment Joint Stock Company,hose,26100,27900,24300,ssi_api_official,True,2025-09-27
+CMG,10,Công ty Cổ phần Tập đoàn Công nghệ CMC,CMC Corporation,hose,39900,42650,37150,ssi_api_official,True,2025-09-27
+CTD,11,Công ty Cổ phần Xây dựng COTECCONS,Coteccons Construction Joint Stock Company,hose,82700,88400,77000,ssi_api_official,True,2025-09-27
+CTG,12,Ngân hàng Thương mại Cổ phần Công Thương Việt Nam,Viet Nam Joint Stock Commercial Bank for Industry and Trade,hose,50300,53800,46800,ssi_api_official,True,2025-09-27
+CTR,13,Tổng Công ty Cổ phần Công trình Viettel,Viettel Construction Joint Stock Corporation,hose,90500,96800,84200,ssi_api_official,True,2025-09-27
+CTS,14,Công ty Cổ phần Chứng khoán Ngân hàng Công Thương Việt Nam,Vietnam Bank for Industry and Trade Securities Joint Stock Company,hose,41200,44050,38350,ssi_api_official,True,2025-09-27
+DBC,15,Công ty Cổ phần Tập đoàn DABACO Việt Nam,DABACO Group,hose,27700,29600,25800,ssi_api_official,True,2025-09-27
+DCM,16,Công ty Cổ phần Phân bón Dầu khí Cà Mau,PetroVietnam Ca Mau Fertilizer Joint Stock Company,hose,37700,40300,35100,ssi_api_official,True,2025-09-27
+DGC,17,Công ty Cổ phần Tập đoàn Hóa chất Đức Giang,Duc Giang Chemicals Group Joint Stock Company,hose,96500,103200,89800,ssi_api_official,True,2025-09-27
+DGW,18,Công ty Cổ phần Thế Giới Số,Digiworld Corporation,hose,42400,45350,39450,ssi_api_official,True,2025-09-27
+DIG,19,Tổng Công ty Cổ phần Đầu tư Phát triển Xây dựng,Development Investment Construction Joint Stock Company,hose,25300,27050,23550,ssi_api_official,True,2025-09-27
+DPM,20,Tổng Công ty Phân bón và Hóa chất Dầu khí - Công ty Cổ phần,Petrovietnam Fertilizer And Chemicals Corporation,hose,26650,28500,24800,ssi_api_official,True,2025-09-27
+DSE,21,Công ty Cổ phần Chứng khoán DNSE,DNSE Securities Join Stock Company,hose,29400,31450,27350,ssi_api_official,True,2025-09-27
+DXG,22,Công ty Cổ phần Tập đoàn Đất Xanh,Dat Xanh Group Joint Stock Company,hose,23200,24800,21600,ssi_api_official,True,2025-09-27
+DXS,23,Công ty Cổ phần Dịch vụ Bất động sản Đất Xanh,Dat Xanh Real Estate Services Joint Stock Company,hose,13100,14000,12200,ssi_api_official,True,2025-09-27
+EIB,24,Ngân hàng Thương mại Cổ phần Xuất Nhập khẩu Việt Nam,Vietnam Export Import Commercial Joint Stock Bank,hose,26200,28000,24400,ssi_api_official,True,2025-09-27
+EVF,25,CÔNG TY TÀI CHÍNH TỔNG HỢP CỔ PHẦN ĐIỆN LỰC,EVF GENERAL FINANCE JOINT STOCK COMPANY,hose,13650,14600,12700,ssi_api_official,True,2025-09-27
+FPT,26,Công ty Cổ phần FPT,FPT Corporation,hose,98000,104800,91200,ssi_api_official,True,2025-09-27
+FRT,27,Công ty Cổ phần Bán lẻ Kỹ thuật số FPT,FPT Digital Retail Joint Stock Company,hose,131200,140300,122100,ssi_api_official,True,2025-09-27
+FTS,28,Công ty Cổ phần Chứng khoán FPT,FPT Securities Joint Stock Company,hose,36700,39250,34150,ssi_api_official,True,2025-09-27
+GAS,29,Tổng Công ty Khí Việt Nam - Công ty Cổ phần,PetroVietnam Gas Joint Stock Corporation,hose,61900,66200,57600,ssi_api_official,True,2025-09-27
+GEE,30,Công ty Cổ phần Điện lực Gelex,Gelex Electricity Joint Stock Company,hose,110200,117900,102500,ssi_api_official,True,2025-09-27
+GEX,31,Công ty Cổ phần Tập đoàn GELEX,GELEX Group Joint Stock Company,hose,53500,57200,49800,ssi_api_official,True,2025-09-27
+GMD,32,Công ty Cổ phần GEMADEPT,Gemadept Corporation,hose,71800,76800,66800,ssi_api_official,True,2025-09-27
+GVR,33,Tập đoàn Công nghiệp Cao su Việt Nam - Công ty Cổ phần,Viet Nam Rubber Group - Joint Stock Company,hose,28800,30800,26800,ssi_api_official,True,2025-09-27
+HAG,34,Công ty Cổ phần Hoàng Anh Gia Lai,Hoang Anh Gia Lai Joint Stock Company,hose,15750,16850,14650,ssi_api_official,True,2025-09-27
+HCM,35,Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh,Ho Chi Minh City Securities Corporation,hose,26750,28600,24900,ssi_api_official,True,2025-09-27
+HDB,36,Ngân hàng Thương mại Cổ phần Phát triển Thành phố Hồ Chí Minh,Ho Chi Minh City Development Joint Stock Commercial Bank,hose,31000,33150,28850,ssi_api_official,True,2025-09-27
+HDC,37,Công ty Cổ phần Phát triển nhà Bà Rịa – Vũng Tàu,Ba Ria – Vung Tau House Development Joint Stock Company,hose,36700,39250,34150,ssi_api_official,True,2025-09-27
+HDG,38,Công ty Cổ phần Tập đoàn Hà Đô,Ha Do Group Joint Stock Company,hose,32350,34600,30100,ssi_api_official,True,2025-09-27
+HHV,39,Công ty Cổ phần Đầu tư Hạ tầng Giao thông Đèo Cả,Deo Ca Traffic Infrastructure Investment Joint Stock Company,hose,16450,17600,15300,ssi_api_official,True,2025-09-27
+HPG,40,Công ty Cổ phần Tập đoàn Hòa Phát,Hoa Phat Group Joint Stock Company,hose,28800,30800,26800,ssi_api_official,True,2025-09-27
+HSG,41,Công ty Cổ phần Tập đoàn Hoa Sen,Hoa Sen Group,hose,19400,20750,18050,ssi_api_official,True,2025-09-27
+HT1,42,Công ty Cổ phần Xi măng VICEM Hà Tiên,VICEM Ha Tien Cement Joint Stock Company,hose,17850,19050,16650,ssi_api_official,True,2025-09-27
+IMP,43,Công ty Cổ phần Dược phẩm Imexpharm,Imexpharm Corporation,hose,53200,56900,49500,ssi_api_official,True,2025-09-27
+KBC,44,Tổng Công ty Phát triển Đô Thị Kinh Bắc – Công ty Cổ phần,Kinh Bac City Development Holding Corporation,hose,36900,39450,34350,ssi_api_official,True,2025-09-27
+KDC,45,Công ty Cổ phần Tập đoàn Kido,KIDO Group Corporation,hose,52500,56100,48850,ssi_api_official,True,2025-09-27
+KDH,46,Công ty Cổ phần Đầu tư và Kinh doanh Nhà Khang Điền,Khang Dien House Trading and Investment Joint Stock Company,hose,33700,36050,31350,ssi_api_official,True,2025-09-27
+KOS,47,Công ty Cổ phần KOSY,Kosy Joint Stock Company,hose,39400,42150,36650,ssi_api_official,True,2025-09-27
+LPB,48,Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam,Fortune Vietnam Joint Stock Commercial Bank,hose,47950,51300,44600,ssi_api_official,True,2025-09-27
+MBB,49,Ngân hàng Thương mại Cổ phần Quân Đội,Military Commercial Joint Stock Bank,hose,26550,28400,24700,ssi_api_official,True,2025-09-27
+MSB,50,Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam,Vietnam Maritime Commercial Joint Stock Bank,hose,13300,14200,12400,ssi_api_official,True,2025-09-27
+MSN,51,Công ty Cổ phần Tập đoàn MaSan,Masan Group Corporation,hose,82200,87900,76500,ssi_api_official,True,2025-09-27
+MWG,52,Công ty Cổ phần Đầu tư Thế Giới Di Động,Mobile World Investment Corporation,hose,79000,84500,73500,ssi_api_official,True,2025-09-27
+NAB,53,Ngân hàng Thương mại Cổ phần Nam Á,Nam A Commercial Joint Stock Bank,hose,15050,16100,14000,ssi_api_official,True,2025-09-27
+NKG,54,Công ty Cổ phần Thép Nam Kim,Nam Kim Steel Joint Stock Company,hose,18450,19700,17200,ssi_api_official,True,2025-09-27
+NLG,55,Công ty Cổ phần Đầu tư Nam Long,Nam Long Investment Corporation,hose,40900,43750,38050,ssi_api_official,True,2025-09-27
+NT2,56,Công ty Cổ phần Điện lực Dầu khí Nhơn Trạch 2,PetroVietnam Power Nhon Trach 2 Joint Stock Company,hose,24400,26100,22700,ssi_api_official,True,2025-09-27
+OCB,57,Ngân hàng Thương mại Cổ phần Phương Đông,Orient Commercial Joint Stock Bank,hose,12900,13800,12000,ssi_api_official,True,2025-09-27
+PAN,58,Công ty Cổ phần Tập đoàn PAN,The PAN Group Joint Stock Company,hose,33400,35700,31100,ssi_api_official,True,2025-09-27
+PC1,59,Công ty Cổ phần Tập đoàn PC1,PC1 Group Joint Stock Company,hose,26600,28450,24750,ssi_api_official,True,2025-09-27
+PDR,60,Công ty Cổ phần Phát triển Bất động sản Phát Đạt,Phat Dat Real Estate Development Corp,hose,24800,26500,23100,ssi_api_official,True,2025-09-27
+PHR,61,Công ty Cổ phần Cao su Phước Hòa,Phuoc Hoa Rubber Joint Stock Company,hose,56600,60500,52700,ssi_api_official,True,2025-09-27
+PLX,62,Tập đoàn Xăng dầu Việt Nam,Viet Nam National Petroleum Group,hose,35050,37500,32600,ssi_api_official,True,2025-09-27
+PNJ,63,Công ty Cổ phần Vàng bạc Đá quý Phú Nhuận,Phu Nhuan Jewelry Joint Stock Company,hose,84800,90700,78900,ssi_api_official,True,2025-09-27
+POW,64,Tổng Công ty Điện lực Dầu khí Việt Nam - CTCP,PetroVietnam Power Corporation,hose,15200,16250,14150,ssi_api_official,True,2025-09-27
+PPC,65,Công ty Cổ phần Nhiệt điện Phả Lại,Pha Lai Thermal Power Joint Stock Company,hose,10750,11500,10000,ssi_api_official,True,2025-09-27
+PTB,66,Công ty Cổ phần Phú Tài,Phu Tai Joint Stock Company,hose,50300,53800,46800,ssi_api_official,True,2025-09-27
+PVD,67,Tổng Công ty Cổ phần Khoan và Dịch vụ Khoan Dầu khí,PetroVietNam Drilling & Well Service Corporation,hose,23000,24600,21400,ssi_api_official,True,2025-09-27
+PVT,68,Tổng Công ty Cổ phần Vận tải Dầu khí,PetroVietNam Transportation Corporation,hose,19200,20500,17900,ssi_api_official,True,2025-09-27
+REE,69,Công ty Cổ phần Cơ Điện Lạnh,Refrigeration Electrical Engineering Corporation,hose,67600,72300,62900,ssi_api_official,True,2025-09-27
+SAB,70,Tổng Công ty Cổ phần Bia – Rượu – Nước giải khát Sài Gòn,Saigon Beer – Alcohol – Beverage Corporation,hose,45850,49050,42650,ssi_api_official,True,2025-09-27
+SBT,71,Công ty Cổ phần Thành Thành Công - Biên Hòa,Thanh Thanh Cong - Bien Hoa Joint Stock Company,hose,24100,25750,22450,ssi_api_official,True,2025-09-27
+SCS,72,Công ty Cổ phần Dịch vụ Hàng hóa Sài Gòn,Sai Gon Cargo Service Corporation,hose,59700,63800,55600,ssi_api_official,True,2025-09-27
+SHB,73,Ngân hàng Thương mại Cổ phần Sài Gòn – Hà Nội,Sai Gon – Ha Noi Commercial Joint Stock Bank,hose,17350,18550,16150,ssi_api_official,True,2025-09-27
+SIP,74,Công ty Cổ phần Đầu tư Sài Gòn VRG,Sai Gon VRG Investment Corporation,hose,57700,61700,53700,ssi_api_official,True,2025-09-27
+SJS,75,Công ty Cổ phần SJ Group,SJ Group Joint Stock Company,hose,72600,77600,67600,ssi_api_official,True,2025-09-27
+SSB,76,Ngân hàng Thương mại Cổ phần Đông Nam Á,Southeast Asia Commercial Joint Stock Bank,hose,19450,20800,18100,ssi_api_official,True,2025-09-27
+SSI,77,Công ty Cổ phần Chứng khoán SSI,SSI Securities Corporation,hose,39000,41700,36300,ssi_api_official,True,2025-09-27
+STB,78,Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín,Sai Gon Thuong Tin Commercial Joint Stock Bank,hose,56900,60800,53000,ssi_api_official,True,2025-09-27
+SZC,79,Công ty Cổ phần Sonadezi Châu Đức,Sonadezi Chau Duc Shareholding Company,hose,35000,37450,32550,ssi_api_official,True,2025-09-27
+TCB,80,Ngân hàng Thương mại Cổ phần Kỹ Thương Việt Nam,Vietnam Technological and Commercial Joint Stock Bank,hose,38900,41600,36200,ssi_api_official,True,2025-09-27
+TCH,81,Công ty Cổ phần Đầu tư Dịch vụ Tài chính Hoàng Huy,Hoang Huy Investment Financial Services Joint Stock Company,hose,22200,23750,20650,ssi_api_official,True,2025-09-27
+TLG,82,Công ty Cổ phần Tập đoàn Thiên Long,Thien Long Group Corporation,hose,53000,56700,49300,ssi_api_official,True,2025-09-27
+TPB,83,Ngân hàng Thương mại Cổ phần Tiên Phong,Tien Phong Commercial Joint Stock Bank,hose,19400,20750,18050,ssi_api_official,True,2025-09-27
+VCB,84,Ngân hàng Thương mại Cổ phần Ngoại Thương Việt Nam,Joint Stock Commercial Bank For Foreign Trade of Viet Nam,hose,63000,67400,58600,ssi_api_official,True,2025-09-27
+VCG,85,Tổng Công ty Cổ phần Xuất nhập khẩu và Xây dựng Việt Nam,Vietnam Construction and Import - Export Joint Stock Corporation,hose,27950,29900,26000,ssi_api_official,True,2025-09-27
+VCI,86,Công ty Cổ phần Chứng khoán Vietcap,Vietcap Securities Joint Stock Company,hose,43950,47000,40900,ssi_api_official,True,2025-09-27
+VGC,87,Tổng Công ty Viglacera - CTCP,Viglacera Corporation - JSC,hose,60500,64700,56300,ssi_api_official,True,2025-09-27
+VHC,88,Công ty Cổ phần Vĩnh Hoàn,Vinh Hoan Corporation,hose,59800,63900,55700,ssi_api_official,True,2025-09-27
+VHM,89,Công ty Cổ phần Vinhomes,Vinhomes Joint Stock Company,hose,99500,106400,92600,ssi_api_official,True,2025-09-27
+VIB,90,Ngân hàng Thương mại Cổ phần Quốc tế Việt Nam,Vietnam International Commercial Joint Stock Bank,hose,20100,21500,18700,ssi_api_official,True,2025-09-27
+VIC,91,Tập đoàn Vingroup - Công ty Cổ phần,Vingroup Joint Stock Company,hose,158000,169000,147000,ssi_api_official,True,2025-09-27
+VIX,92,Công ty Cổ phần Chứng khoán VIX,VIX Securities Joint Stock Company,hose,37250,39850,34650,ssi_api_official,True,2025-09-27
+VJC,93,Công ty Cổ phần Hàng không VietJet,VietJet Aviation Joint Stock Company,hose,135900,145400,126400,ssi_api_official,True,2025-09-27
+VND,94,Công ty Cổ phần Chứng khoán VNDIRECT,VNDIRECT Securities Corporation,hose,22850,24400,21300,ssi_api_official,True,2025-09-27
+VNM,95,Công ty Cổ phần Sữa Việt Nam,Viet Nam Dairy Products Joint Stock Company,hose,61500,65800,57200,ssi_api_official,True,2025-09-27
+VPB,96,Ngân hàng Thương mại Cổ phần Việt Nam Thịnh Vượng,VietNam Prosperity Joint Stock Commercial Bank,hose,30950,33100,28800,ssi_api_official,True,2025-09-27
+VPI,97,Công ty Cổ phần Đầu tư Văn Phú - Invest,Van Phu - Invest Investment Joint Stock Company,hose,54900,58700,51100,ssi_api_official,True,2025-09-27
+VRE,98,Công ty Cổ phần Vincom Retail,Vincom Retail Joint Stock Company,hose,29400,31450,27350,ssi_api_official,True,2025-09-27
+VSC,99,Công ty Cổ phần Container Việt Nam,Vietnam Container Shipping Joint Stock Corporation,hose,32150,34400,29900,ssi_api_official,True,2025-09-27
+VTP,100,Tổng Công ty Cổ phần Bưu chính Viettel,Viettel Post Joint Stock Corporation,hose,101300,108300,94300,ssi_api_official,True,2025-09-27
