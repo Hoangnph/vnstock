@@ -1,0 +1,23 @@
+{
+  "schedule_time": "06:00",
+  "schedule_day": "monday",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "email_notifications": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "recipients": []
+  },
+  "retry_config": {
+    "max_retries": 3,
+    "retry_delay": 300,
+    "backoff_factor": 2
+  },
+  "health_check": {
+    "enabled": true,
+    "check_interval": 3600,
+    "max_failures": 5
+  }
+}

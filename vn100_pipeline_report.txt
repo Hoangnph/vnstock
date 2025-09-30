@@ -1,0 +1,90 @@
+
+================================================================================
+📊 BÁO CÁO PIPELINE VN100 HOÀN THÀNH
+================================================================================
+📅 Thời gian bắt đầu: 2025-09-26 17:36:50
+📅 Thời gian kết thúc: 2025-09-26 18:06:18
+⏱️ Tổng thời gian: 1767.45 giây (0.49 giờ)
+
+📊 THỐNG KÊ TỔNG QUAN:
+   Tổng số mã VN100: 100
+   Thành công: 34
+   Thất bại: 66
+   Tỷ lệ thành công: 34.0%
+
+📈 DỮ LIỆU:
+   Tổng số records: 22,231
+   Trung bình records/mã: 653
+   Khoảng thời gian: 2010-01-01 đến 2025-09-26
+
+❌ MÃ THẤT BẠI:
+   - VHM
+   - MSN
+   - VIB
+   - NVB
+   - VSI
+   - VSJ
+   - VSK
+   - VSL
+   - VSN
+   - VSO
+   - VSQ
+   - VSR
+   - VSS
+   - VST
+   - VSU
+   - VSV
+   - VSW
+   - VSX
+   - VSY
+   - VSZ
+   - VTA
+   - VTB
+   - VTC
+   - VTD
+   - VTE
+   - VTF
+   - VTG
+   - VTI
+   - VTJ
+   - VTK
+   - VTM
+   - VTN
+   - VTO
+   - VTP
+   - VTQ
+   - VTS
+   - VTT
+   - VTU
+   - VTV
+   - VTW
+   - VTX
+   - VTY
+   - VUB
+   - VUC
+   - VUD
+   - VUE
+   - VUF
+   - VUG
+   - VUH
+   - VUI
+   - VUJ
+   - VUK
+   - VUL
+   - VUM
+   - VUN
+   - VUO
+   - VUP
+   - VUQ
+   - VUR
+   - VUS
+   - VUT
+   - VUU
+   - VUV
+   - VUW
+   - VUX
+   - VUY
+
+================================================================================
+🎉 PIPELINE VN100 HOÀN THÀNH!
+================================================================================

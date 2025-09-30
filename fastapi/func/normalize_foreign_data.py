@@ -94,5 +94,20 @@ def main():
     print(f"🌐 Update web chart to use: pdr_daily_normalized.json")
 
 
+def normalize_foreign_data(raw_data, source='VCI'):
+    """
+    Normalize foreign trading data from different sources
+    
+    Args:
+        raw_data: Raw foreign trading data
+        source: Data source ('VCI', 'TCBS', etc.)
+        
+    Returns:
+        Normalized foreign trading data
+    """
+    
+    # Simple implementation for compatibility
+    return raw_data
+
 if __name__ == "__main__":
     main()

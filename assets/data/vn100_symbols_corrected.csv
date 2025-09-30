@@ -1,0 +1,38 @@
+symbol,rank,sector,market_cap_tier,updated_date
+VCB,1,Ngân hàng,Tier 1,2025-09-26
+BID,2,Ngân hàng,Tier 1,2025-09-26
+CTG,3,Ngân hàng,Tier 1,2025-09-26
+TCB,4,Ngân hàng,Tier 1,2025-09-26
+MBB,5,Ngân hàng,Tier 1,2025-09-26
+ACB,6,Ngân hàng,Tier 1,2025-09-26
+HDB,7,Ngân hàng,Tier 1,2025-09-26
+TPB,8,Ngân hàng,Tier 1,2025-09-26
+STB,9,Ngân hàng,Tier 1,2025-09-26
+EIB,10,Ngân hàng,Tier 1,2025-09-26
+LPB,11,Ngân hàng,Tier 1,2025-09-26
+MSB,12,Ngân hàng,Tier 1,2025-09-26
+VIB,13,Ngân hàng,Tier 1,2025-09-26
+SHB,14,Ngân hàng,Tier 1,2025-09-26
+NVB,15,Ngân hàng,Tier 1,2025-09-26
+VIC,16,Bất động sản,Tier 1,2025-09-26
+VHM,17,Bất động sản,Tier 1,2025-09-26
+VRE,18,Bất động sản,Tier 1,2025-09-26
+HPG,19,Tài nguyên Cơ bản,Tier 1,2025-09-26
+GAS,20,"Điện, nước & xăng dầu khí đốt",Tier 1,2025-09-26
+VSH,21,"Điện, nước & xăng dầu khí đốt",Tier 1,2025-09-26
+VNM,22,Thực phẩm và đồ uống,Tier 1,2025-09-26
+MSN,23,Thực phẩm và đồ uống,Tier 1,2025-09-26
+VTL,24,Thực phẩm và đồ uống,Tier 1,2025-09-26
+PLX,25,Dầu khí,Tier 1,2025-09-26
+MWG,26,Bán lẻ,Tier 1,2025-09-26
+FPT,27,Công nghệ Thông tin,Tier 1,2025-09-26
+VJC,28,Du lịch và Giải trí,Tier 1,2025-09-26
+VTR,29,Du lịch và Giải trí,Tier 1,2025-09-26
+GMD,30,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VOS,31,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VIP,32,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VSC,33,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VSM,34,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VTH,35,Hàng & Dịch vụ Công nghiệp,Tier 1,2025-09-26
+VTZ,36,Hóa chất,Tier 1,2025-09-26
+VUA,37,Dịch vụ tài chính,Tier 1,2025-09-26
