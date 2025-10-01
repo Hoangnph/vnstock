@@ -19,6 +19,7 @@ from typing import Any, Dict, List, Optional, Tuple
 import pandas as pd
 import httpx
 from playwright.async_api import async_playwright
+from fastapi.func.ssi_config import SSIAPIConfig, get_endpoint_url
 
 from database.api.database import get_async_session
 from database.api.repositories import RepositoryFactory
@@ -27,26 +28,11 @@ from sqlalchemy import select, func
 
 logger = logging.getLogger(__name__)
 
-# SSI API Endpoints
-SSI_STOCK_INFO_URL = "https://iboard-api.ssi.com.vn/statistics/company/ssmi/stock-info"
-SSI_DCHART_HISTORY_URL = "https://iboard.ssi.com.vn/dchart/api/1.1/default/history"
-
-DEFAULT_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Encoding": "gzip, deflate, br, zstd",
-    "Accept-Language": "vi",
-    "Origin": "https://iboard.ssi.com.vn",
-    "Referer": "https://iboard.ssi.com.vn/",
-    "Sec-Ch-Ua": '"Chromium";v="140", "Not=A?Brand";v="24", "HeadlessChrome";v="140"',
-    "Sec-Ch-Ua-Mobile": "?0",
-    "Sec-Ch-Ua-Platform": '"macOS"',
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-site",
-    "Priority": "u=1, i",
-    "Connection": "keep-alive",
-}
+def _merge_headers(base: Dict[str, str], override: Dict[str, str]) -> Dict[str, str]:
+    merged = dict(base or {})
+    for k, v in (override or {}).items():
+        merged[k] = v
+    return merged
 
 def _fmt_ddmmyyyy(d: str | date) -> str:
     if isinstance(d, str):
@@ -68,6 +54,13 @@ def _to_unix_timestamp(d: str | date) -> int:
 class SSIFetcherWithTracking:
     def __init__(self):
         self.data_source = DataSource.SSI
+        self.cfg = SSIAPIConfig.load()
+        # Build URLs
+        self.stock_info_url = get_endpoint_url(self.cfg, "stock_info")
+        # Headers: default + playwright override for API host if present
+        default_headers = self.cfg.headers.get("default", {})
+        pw_override = self.cfg.headers.get("playwright_override", {}).get("iboard-api.ssi.com.vn", {})
+        self.request_headers = _merge_headers(default_headers, pw_override)
 
     async def _get_json(self, url: str, params: Dict[str, Any], use_playwright: bool = False) -> Optional[Dict[str, Any]]:
         timeout = httpx.Timeout(30.0, connect=10.0)
@@ -81,7 +74,7 @@ class SSIFetcherWithTracking:
                     logger.info(f"🌐 Playwright fallback for {url} (attempt {attempt + 1})")
                     return await self._fetch_with_playwright(url, params)
                 else:
-                    async with httpx.AsyncClient(timeout=timeout, headers=DEFAULT_HEADERS, http2=True) as client:
+                    async with httpx.AsyncClient(timeout=timeout, headers=self.request_headers, http2=True) as client:
                         resp = await client.get(url, params=params)
                         resp.raise_for_status()
                         
@@ -131,12 +124,12 @@ class SSIFetcherWithTracking:
         async with async_playwright() as pw:
             browser = await pw.chromium.launch(headless=True)
             context = await browser.new_context(
-                user_agent=DEFAULT_HEADERS["User-Agent"],
+                user_agent=self.request_headers.get("user-agent", self.request_headers.get("User-Agent", "")),
                 extra_http_headers={
-                    "Accept-Language": "vi",
-                    "Origin": "https://iboard.ssi.com.vn",
-                    "Referer": "https://iboard.ssi.com.vn/",
-                }
+                    "Accept-Language": self.request_headers.get("accept-language", self.request_headers.get("Accept-Language", "vi")),
+                    "Origin": self.request_headers.get("origin", self.request_headers.get("Origin", "https://iboard.ssi.com.vn")),
+                    "Referer": self.request_headers.get("referer", self.request_headers.get("Referer", "https://iboard.ssi.com.vn/")),
+                },
             )
             page = await context.new_page()
 
@@ -155,9 +148,9 @@ class SSIFetcherWithTracking:
                     "    method: 'GET',\n"
                     "    headers: {\n"
                     "      'Accept': 'application/json, text/plain, */*',\n"
-                    "      'Accept-Language': 'vi',\n"
-                    "      'Origin': 'https://iboard.ssi.com.vn',\n"
-                    "      'Referer': 'https://iboard.ssi.com.vn/',\n"
+                    "      'Accept-Language': document.headers && document.headers['accept-language'] || 'vi',\n"
+                    "      'Origin': location.origin,\n"
+                    "      'Referer': location.origin + '/',\n"
                     "      'Sec-Fetch-Dest': 'empty',\n"
                     "      'Sec-Fetch-Mode': 'cors',\n"
                     "      'Sec-Fetch-Site': 'same-site'\n"
@@ -283,13 +276,13 @@ class SSIFetcherWithTracking:
                     }
                     
                     try:
-                        data = await self._get_json(SSI_STOCK_INFO_URL, params)
+                        data = await self._get_json(self.stock_info_url, params)
                     except Exception:
                         # Treat any exception on this page as no data for this window/page
                         data = {"code": "SUCCESS", "data": []}
                     if (not data) or (isinstance(data, dict) and data.get("code") != "SUCCESS"):
                         try:
-                            data = await self._get_json(SSI_STOCK_INFO_URL, params, use_playwright=True)
+                            data = await self._get_json(self.stock_info_url, params, use_playwright=True)
                         except Exception:
                             data = {"code": "SUCCESS", "data": []}
                         if (not data) or (isinstance(data, dict) and data.get("code") != "SUCCESS"):

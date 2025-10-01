@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VN100 Analysis Signals - Tín Hiệu Mua/Bán</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        .controls {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.9em;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 0.9em;
+            transition: border-color 0.3s;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2980b9;
+        }
+
+        .btn-secondary {
+            background: #95a5a6;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .table-container {
+            padding: 30px;
+            overflow-x: auto;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .table th {
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+        }
+
+        .table th:hover {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        }
+
+        .table th.sortable::after {
+            content: ' ↕';
+            opacity: 0.5;
+        }
+
+        .table th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        .table th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #e9ecef;
+            vertical-align: top;
+        }
+
+        .table tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .action-buy {
+            background: #d4edda;
+            color: #155724;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+
+        .action-sell {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+
+        .strength-strong {
+            background: #fff3cd;
+            color: #856404;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        .strength-medium {
+            background: #d1ecf1;
+            color: #0c5460;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        .strength-weak {
+            background: #e2e3e5;
+            color: #383d41;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        .score-positive {
+            color: #dc3545;
+            font-weight: 600;
+        }
+
+        .score-negative {
+            color: #28a745;
+            font-weight: 600;
+        }
+
+        .score-neutral {
+            color: #6c757d;
+            font-weight: 600;
+        }
+
+        .details {
+            max-width: 300px;
+            font-size: 0.85em;
+            line-height: 1.4;
+        }
+
+        .details strong {
+            color: #2c3e50;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .pagination button:hover:not(:disabled) {
+            background: #e9ecef;
+        }
+
+        .pagination button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .pagination .active {
+            background: #3498db;
+            color: white;
+            border-color: #3498db;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .export-btn {
+            background: #27ae60;
+            color: white;
+        }
+
+        .export-btn:hover {
+            background: #229954;
+        }
+
+        @media (max-width: 768px) {
+            .filter-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .table-container {
+                padding: 15px;
+            }
+            
+            .table th,
+            .table td {
+                padding: 8px 6px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 VN100 Analysis Signals</h1>
+            <p>Tín hiệu mua/bán từ phân tích kỹ thuật VN100</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalSignals">0</div>
+                    <div class="stat-label">Tổng tín hiệu</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="buySignals">0</div>
+                    <div class="stat-label">Tín hiệu MUA</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="sellSignals">0</div>
+                    <div class="stat-label">Tín hiệu BÁN</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="actionFilter">Hành động:</label>
+                    <select id="actionFilter">
+                        <option value="">Tất cả</option>
+                        <option value="MUA">MUA</option>
+                        <option value="BÁN">BÁN</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="strengthFilter">Độ mạnh:</label>
+                    <select id="strengthFilter">
+                        <option value="">Tất cả</option>
+                        <option value="STRONG">Mạnh</option>
+                        <option value="MEDIUM">Trung bình</option>
+                        <option value="WEAK">Yếu</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="symbolFilter">Mã cổ phiếu:</label>
+                    <input type="text" id="symbolFilter" placeholder="Nhập mã...">
+                </div>
+                <div class="filter-group">
+                    <label for="dateFrom">Từ ngày:</label>
+                    <input type="date" id="dateFrom">
+                </div>
+                <div class="filter-group">
+                    <label for="dateTo">Đến ngày:</label>
+                    <input type="date" id="dateTo">
+                </div>
+                <div class="filter-group">
+                    <button class="btn btn-primary" onclick="applyFilters()">Lọc</button>
+                    <button class="btn btn-secondary" onclick="clearFilters()">Xóa lọc</button>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <button class="btn export-btn" onclick="exportToCSV()">📥 Xuất CSV</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <div id="loading" class="loading">Đang tải dữ liệu...</div>
+            <table class="table" id="signalsTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th class="sortable" onclick="sortTable('symbol')">Mã CP</th>
+                        <th class="sortable" onclick="sortTable('time')">Ngày</th>
+                        <th class="sortable" onclick="sortTable('action')">Hành động</th>
+                        <th class="sortable" onclick="sortTable('strength')">Độ mạnh</th>
+                        <th class="sortable" onclick="sortTable('score')">Điểm</th>
+                        <th class="sortable" onclick="sortTable('rsi')">RSI</th>
+                        <th class="sortable" onclick="sortTable('macd')">MACD</th>
+                        <th class="sortable" onclick="sortTable('ma9')">MA9</th>
+                        <th class="sortable" onclick="sortTable('ma50')">MA50</th>
+                        <th>Chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody id="signalsTableBody">
+                </tbody>
+            </table>
+            <div id="noData" class="no-data" style="display: none;">
+                Không có dữ liệu phù hợp với bộ lọc
+            </div>
+        </div>
+
+        <div class="pagination" id="pagination" style="display: none;">
+            <button id="prevBtn" onclick="changePage(-1)">‹ Trước</button>
+            <span id="pageInfo">Trang 1 / 1</span>
+            <button id="nextBtn" onclick="changePage(1)">Sau ›</button>
+        </div>
+    </div>
+
+    <script>
+        let allSignals = [];
+        let filteredSignals = [];
+        let currentPage = 1;
+        let itemsPerPage = 50;
+        let currentSort = { column: 'time', direction: 'desc' };
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('signals_data.json');
+                allSignals = await response.json();
+                filteredSignals = [...allSignals];
+                updateStats();
+                // Show all data by default instead of applying filters
+                currentPage = 1;
+                sortTable('time', 'desc'); // Sort by date descending by default
+                renderTable();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('signalsTable').style.display = 'table';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = 'Lỗi tải dữ liệu: ' + error.message;
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            const total = allSignals.length;
+            const buy = allSignals.filter(s => s.action === 'MUA').length;
+            const sell = allSignals.filter(s => s.action === 'BÁN').length;
+            
+            document.getElementById('totalSignals').textContent = total;
+            document.getElementById('buySignals').textContent = buy;
+            document.getElementById('sellSignals').textContent = sell;
+        }
+
+        // Apply filters
+        function applyFilters() {
+            const actionFilter = document.getElementById('actionFilter').value;
+            const strengthFilter = document.getElementById('strengthFilter').value;
+            const symbolFilter = document.getElementById('symbolFilter').value.toLowerCase();
+            const dateFrom = document.getElementById('dateFrom').value;
+            const dateTo = document.getElementById('dateTo').value;
+
+            filteredSignals = allSignals.filter(signal => {
+                if (actionFilter && signal.action !== actionFilter) return false;
+                if (strengthFilter && signal.strength !== strengthFilter) return false;
+                if (symbolFilter && !signal.symbol.toLowerCase().includes(symbolFilter)) return false;
+                if (dateFrom && signal.time < dateFrom) return false;
+                if (dateTo && signal.time > dateTo) return false;
+                return true;
+            });
+
+            currentPage = 1;
+            sortTable(currentSort.column, currentSort.direction);
+            renderTable();
+        }
+
+        // Clear filters
+        function clearFilters() {
+            document.getElementById('actionFilter').value = '';
+            document.getElementById('strengthFilter').value = '';
+            document.getElementById('symbolFilter').value = '';
+            document.getElementById('dateFrom').value = '';
+            document.getElementById('dateTo').value = '';
+            applyFilters();
+        }
+
+        // Sort table
+        function sortTable(column, direction = null) {
+            if (direction === null) {
+                if (currentSort.column === column) {
+                    currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSort.column = column;
+                    currentSort.direction = 'asc';
+                }
+            } else {
+                currentSort.column = column;
+                currentSort.direction = direction;
+            }
+
+            filteredSignals.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                if (column === 'time') {
+                    aVal = new Date(aVal);
+                    bVal = new Date(bVal);
+                } else if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+
+                if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
+                if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            // Update sort indicators
+            document.querySelectorAll('.sortable').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+            });
+            const currentTh = document.querySelector(`th[onclick="sortTable('${column}')"]`);
+            if (currentTh) {
+                currentTh.classList.add(`sort-${currentSort.direction}`);
+            }
+
+            currentPage = 1;
+            renderTable();
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('signalsTableBody');
+            const noData = document.getElementById('noData');
+            const pagination = document.getElementById('pagination');
+
+            if (filteredSignals.length === 0) {
+                tbody.innerHTML = '';
+                document.getElementById('signalsTable').style.display = 'none';
+                noData.style.display = 'block';
+                pagination.style.display = 'none';
+                return;
+            }
+
+            document.getElementById('signalsTable').style.display = 'table';
+            noData.style.display = 'none';
+
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const pageSignals = filteredSignals.slice(startIndex, endIndex);
+
+            tbody.innerHTML = pageSignals.map(signal => {
+                const date = new Date(signal.time).toLocaleDateString('vi-VN');
+                const actionClass = signal.action === 'MUA' ? 'action-buy' : 'action-sell';
+                const strengthClass = `strength-${signal.strength.toLowerCase()}`;
+                const scoreClass = signal.score > 0 ? 'score-positive' : 
+                                 signal.score < 0 ? 'score-negative' : 'score-neutral';
+
+                const details = `
+                    <div class="details">
+                        <strong>RSI:</strong> ${signal.rsi ? signal.rsi.toFixed(2) : 'N/A'}<br>
+                        <strong>MACD:</strong> ${signal.macd ? signal.macd.toFixed(2) : 'N/A'}<br>
+                        <strong>MA9:</strong> ${signal.ma9 ? signal.ma9.toFixed(0) : 'N/A'}<br>
+                        <strong>MA50:</strong> ${signal.ma50 ? signal.ma50.toFixed(0) : 'N/A'}<br>
+                        <strong>BB Width:</strong> ${signal.bb_width ? signal.bb_width.toFixed(4) : 'N/A'}<br>
+                        <strong>OBV:</strong> ${signal.obv ? signal.obv.toLocaleString() : 'N/A'}
+                    </div>
+                `;
+
+                return `
+                    <tr>
+                        <td><strong>${signal.symbol}</strong></td>
+                        <td>${date}</td>
+                        <td><span class="${actionClass}">${signal.action}</span></td>
+                        <td><span class="${strengthClass}">${signal.strength}</span></td>
+                        <td class="${scoreClass}">${signal.score.toFixed(2)}</td>
+                        <td>${signal.rsi ? signal.rsi.toFixed(2) : 'N/A'}</td>
+                        <td>${signal.macd ? signal.macd.toFixed(2) : 'N/A'}</td>
+                        <td>${signal.ma9 ? signal.ma9.toFixed(0) : 'N/A'}</td>
+                        <td>${signal.ma50 ? signal.ma50.toFixed(0) : 'N/A'}</td>
+                        <td>${details}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            // Update pagination
+            const totalPages = Math.ceil(filteredSignals.length / itemsPerPage);
+            if (totalPages > 1) {
+                pagination.style.display = 'flex';
+                document.getElementById('pageInfo').textContent = `Trang ${currentPage} / ${totalPages}`;
+                document.getElementById('prevBtn').disabled = currentPage === 1;
+                document.getElementById('nextBtn').disabled = currentPage === totalPages;
+            } else {
+                pagination.style.display = 'none';
+            }
+        }
+
+        // Change page
+        function changePage(direction) {
+            const totalPages = Math.ceil(filteredSignals.length / itemsPerPage);
+            const newPage = currentPage + direction;
+            
+            if (newPage >= 1 && newPage <= totalPages) {
+                currentPage = newPage;
+                renderTable();
+            }
+        }
+
+        // Export to CSV
+        function exportToCSV() {
+            const headers = ['Mã CP', 'Ngày', 'Hành động', 'Độ mạnh', 'Điểm', 'RSI', 'MACD', 'MA9', 'MA50', 'BB Width', 'OBV'];
+            const csvContent = [
+                headers.join(','),
+                ...filteredSignals.map(signal => [
+                    signal.symbol,
+                    new Date(signal.time).toLocaleDateString('vi-VN'),
+                    signal.action,
+                    signal.strength,
+                    signal.score.toFixed(2),
+                    signal.rsi ? signal.rsi.toFixed(2) : '',
+                    signal.macd ? signal.macd.toFixed(2) : '',
+                    signal.ma9 ? signal.ma9.toFixed(0) : '',
+                    signal.ma50 ? signal.ma50.toFixed(0) : '',
+                    signal.bb_width ? signal.bb_width.toFixed(4) : '',
+                    signal.obv ? signal.obv.toLocaleString() : ''
+                ].join(','))
+            ].join('\n');
+
+            const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', `vn100_signals_${new Date().toISOString().split('T')[0]}.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

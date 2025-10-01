@@ -36,13 +36,19 @@ class BaseRepository:
         self.session = session
         self.is_async = isinstance(session, AsyncSession)
     
-    async def _execute_query(self, query: Select) -> Any:
+    async def _execute_query(self, query: Select, params: Optional[Dict[str, Any]] = None) -> Any:
         """Execute query with async/sync support"""
         if self.is_async:
-            result = await self.session.execute(query)
+            if params:
+                result = await self.session.execute(query, params)
+            else:
+                result = await self.session.execute(query)
             return result
         else:
-            return self.session.execute(query)
+            if params:
+                return self.session.execute(query, params)
+            else:
+                return self.session.execute(query)
     
     async def _commit(self) -> None:
         """Commit transaction with async/sync support"""
@@ -813,6 +819,8 @@ class StockUpdateTrackingRepository(BaseRepository):
                 last_updated_date=last_updated_date,
                 total_records=total_records,
                 last_update_duration_seconds=duration_seconds,
+                    # store precise update time to ease overwrite/fix controls
+                    last_updated_at=datetime.utcnow(),
                 last_update_status="SUCCESS",
                 last_error_message=None,
                 updated_at=datetime.utcnow()

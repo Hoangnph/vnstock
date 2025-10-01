@@ -1,0 +1,621 @@
+{
+  "pipeline_duration_seconds": 258.0072531700134,
+  "start_date": "2024-01-01",
+  "end_date": "2025-10-01",
+  "total_symbols": 100,
+  "processed_symbols": 100,
+  "skipped_symbols": 0,
+  "success_rate": 100.0,
+  "result": {
+    "total_symbols": 100,
+    "processed_symbols": 100,
+    "skipped_symbols": 0,
+    "total_calculations": 42129,
+    "total_skipped": 0,
+    "results": [
+      {
+        "symbol": "ACB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "ANV",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BCM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BID",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BMP",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BSI",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BVH",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "BWE",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CII",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CMG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CTD",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CTG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CTR",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "CTS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DBC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DCM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DGC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DGW",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DIG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DPM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DSE",
+        "success": true,
+        "calculations_count": 314,
+        "data_points": 314
+      },
+      {
+        "symbol": "DXG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "DXS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "EIB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "EVF",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "FPT",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "FRT",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "FTS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "GAS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "GEE",
+        "success": true,
+        "calculations_count": 414,
+        "data_points": 414
+      },
+      {
+        "symbol": "GEX",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "GMD",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "GVR",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HAG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HCM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HDB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HDC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HDG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HHV",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HPG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HSG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "HT1",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "IMP",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "KBC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "KDC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "KDH",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "KOS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "LPB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "MBB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "MSB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "MSN",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "MWG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "NAB",
+        "success": true,
+        "calculations_count": 428,
+        "data_points": 428
+      },
+      {
+        "symbol": "NKG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "NLG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "NT2",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "OCB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PAN",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PC1",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PDR",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PHR",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PLX",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PNJ",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "POW",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PPC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PTB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "PVD",
+        "success": true,
+        "calculations_count": 618,
+        "data_points": 618
+      },
+      {
+        "symbol": "PVT",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "REE",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SAB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SBT",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SCS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SHB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SIP",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SJS",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SSB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SSI",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "STB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "SZC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "TCB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "TCH",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "TLG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "TPB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VCB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VCG",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VCI",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VGC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VHC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VHM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VIB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VIC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VIX",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VJC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VND",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VNM",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VPB",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VPI",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VRE",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VSC",
+        "success": true,
+        "calculations_count": 434,
+        "data_points": 434
+      },
+      {
+        "symbol": "VTP",
+        "success": true,
+        "calculations_count": 427,
+        "data_points": 427
+      }
+    ]
+  }
+}

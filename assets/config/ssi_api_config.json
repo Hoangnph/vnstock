@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "updated_at": "2025-09-30T09:47:30.219348+00:00",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "market_close_hour_local": 16,
+  "date_format_ssi": "%d/%m/%Y",
+  "rate_limit": {
+    "per_request_delay_ms": 200,
+    "max_retries": 3,
+    "retry_backoff_ms": 300
+  },
+  "windows": {
+    "recent_days": 3,
+    "historical_years_back": 1,
+    "consecutive_empty_windows_stop": 3
+  },
+  "pagination": {
+    "page_size": 1000
+  },
+  "base_urls": {
+    "iboard_api": "https://iboard-api.ssi.com.vn",
+    "iboard": "https://iboard.ssi.com.vn"
+  },
+  "endpoints": {
+    "stock_info": "/statistics/company/ssmi/stock-info",
+    "dchart_history": "/dchart/api/1.1/default/history"
+  },
+  "primary_sources": {
+    "ohlcv": "stock_info",
+    "foreign_trade": "stock_info"
+  },
+  "headers": {
+    "default": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9",
+      "cache-control": "no-cache",
+      "pragma": "no-cache",
+      "sec-ch-ua": "\"Chromium\";v=130, \"Not?A_Brand\";v=24, \"Brave\";v=130",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "origin": "https://iboard.ssi.com.vn",
+      "referer": "https://iboard.ssi.com.vn/"
+    },
+    "playwright_override": {
+      "iboard.ssi.com.vn": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://iboard.ssi.com.vn/tradingview/?symbol=ACB&language=vi&interval=D&theme=classic&target=tradingViewStockDetail&autoSave=1&forceTVChart=null&showVolume=1&timescaleMarks=1&sameDomain=1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "iboard-api.ssi.com.vn": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "vi",
+        "origin": "https://iboard.ssi.com.vn",
+        "referer": "https://iboard.ssi.com.vn/",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+      }
+    }
+  }
+}

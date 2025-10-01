@@ -1,0 +1,518 @@
+{
+  "pipeline_duration_seconds": 99.18656635284424,
+  "start_date": "2024-01-01",
+  "end_date": "2025-10-01",
+  "total_symbols": 100,
+  "processed_symbols": 0,
+  "skipped_symbols": 0,
+  "success_rate": 0.0,
+  "result": {
+    "total_symbols": 100,
+    "processed_symbols": 0,
+    "skipped_symbols": 0,
+    "total_calculations": 0,
+    "total_skipped": 0,
+    "results": [
+      {
+        "symbol": "ACB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "ANV",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BCM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BID",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BMP",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BSI",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BVH",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "BWE",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CII",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CMG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CTD",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CTG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CTR",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "CTS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DBC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DCM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DGC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DGW",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DIG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DPM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DSE",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DXG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "DXS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "EIB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "EVF",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "FPT",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "FRT",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "FTS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "GAS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "GEE",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "GEX",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "GMD",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "GVR",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HAG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HCM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HDB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HDC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HDG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HHV",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HPG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HSG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "HT1",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "IMP",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "KBC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "KDC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "KDH",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "KOS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "LPB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "MBB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "MSB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "MSN",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "MWG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "NAB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "NKG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "NLG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "NT2",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "OCB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PAN",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PC1",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PDR",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PHR",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PLX",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PNJ",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "POW",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PPC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PTB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PVD",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "PVT",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "REE",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SAB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SBT",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SCS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SHB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SIP",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SJS",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SSB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SSI",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "STB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "SZC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "TCB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "TCH",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "TLG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "TPB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VCB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VCG",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VCI",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VGC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VHC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VHM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VIB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VIC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VIX",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VJC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VND",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VNM",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VPB",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VPI",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VRE",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VSC",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      },
+      {
+        "symbol": "VTP",
+        "success": false,
+        "error": "'IndicatorRepository' object has no attribute 'get_by_symbol_and_config'"
+      }
+    ]
+  }
+}

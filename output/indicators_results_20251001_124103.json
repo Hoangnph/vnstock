@@ -1,0 +1,718 @@
+{
+  "pipeline_duration_seconds": 103.5749020576477,
+  "start_date": "2024-01-01",
+  "end_date": "2025-10-01",
+  "total_symbols": 100,
+  "processed_symbols": 100,
+  "skipped_symbols": 0,
+  "success_rate": 100.0,
+  "result": {
+    "total_symbols": 100,
+    "processed_symbols": 100,
+    "skipped_symbols": 0,
+    "total_calculations": 0,
+    "total_skipped": 0,
+    "results": [
+      {
+        "symbol": "ACB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "ANV",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BCM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BID",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BMP",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BSI",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BVH",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "BWE",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CII",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CMG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CTD",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CTG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CTR",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "CTS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DBC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DCM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DGC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DGW",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DIG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DPM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DSE",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DXG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "DXS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "EIB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "EVF",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "FPT",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "FRT",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "FTS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "GAS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "GEE",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "GEX",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "GMD",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "GVR",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HAG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HCM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HDB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HDC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HDG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HHV",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HPG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HSG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "HT1",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "IMP",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "KBC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "KDC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "KDH",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "KOS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "LPB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "MBB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "MSB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "MSN",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "MWG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "NAB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "NKG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "NLG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "NT2",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "OCB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PAN",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PC1",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PDR",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PHR",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PLX",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PNJ",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "POW",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PPC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PTB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PVD",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "PVT",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "REE",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SAB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SBT",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SCS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SHB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SIP",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SJS",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SSB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SSI",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "STB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "SZC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "TCB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "TCH",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "TLG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "TPB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VCB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-10-01)"
+      },
+      {
+        "symbol": "VCG",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VCI",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VGC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VHC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VHM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VIB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VIC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VIX",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VJC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VND",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VNM",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VPB",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VPI",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VRE",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VSC",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      },
+      {
+        "symbol": "VTP",
+        "success": true,
+        "skipped": true,
+        "calculations_count": 0,
+        "message": "Already up to date (last: 2025-09-29)"
+      }
+    ]
+  }
+}

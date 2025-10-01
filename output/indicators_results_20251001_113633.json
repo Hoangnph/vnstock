@@ -1,0 +1,518 @@
+{
+  "pipeline_duration_seconds": 99.69121789932251,
+  "start_date": "2024-01-01",
+  "end_date": "2025-10-01",
+  "total_symbols": 100,
+  "processed_symbols": 0,
+  "skipped_symbols": 0,
+  "success_rate": 0.0,
+  "result": {
+    "total_symbols": 100,
+    "processed_symbols": 0,
+    "skipped_symbols": 0,
+    "total_calculations": 0,
+    "total_skipped": 0,
+    "results": [
+      {
+        "symbol": "ACB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "ANV",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BCM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BID",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BMP",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BSI",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BVH",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "BWE",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CII",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CMG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CTD",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CTG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CTR",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "CTS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DBC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DCM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DGC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DGW",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DIG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DPM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DSE",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DXG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "DXS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "EIB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "EVF",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "FPT",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "FRT",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "FTS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "GAS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "GEE",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "GEX",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "GMD",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "GVR",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HAG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HCM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HDB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HDC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HDG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HHV",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HPG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HSG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "HT1",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "IMP",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "KBC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "KDC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "KDH",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "KOS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "LPB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "MBB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "MSB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "MSN",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "MWG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "NAB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "NKG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "NLG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "NT2",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "OCB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PAN",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PC1",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PDR",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PHR",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PLX",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PNJ",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "POW",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PPC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PTB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PVD",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "PVT",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "REE",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SAB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SBT",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SCS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SHB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SIP",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SJS",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SSB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SSI",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "STB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "SZC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "TCB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "TCH",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "TLG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "TPB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VCB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VCG",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VCI",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VGC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VHC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VHM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VIB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VIC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VIX",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VJC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VND",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VNM",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VPB",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VPI",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VRE",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VSC",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      },
+      {
+        "symbol": "VTP",
+        "success": false,
+        "error": "Failed to load data: asyncio.run() cannot be called from a running event loop"
+      }
+    ]
+  }
+}

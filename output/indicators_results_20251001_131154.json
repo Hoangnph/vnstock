@@ -1,0 +1,618 @@
+{
+  "pipeline_duration_seconds": 1652.2009451389313,
+  "start_date": "2014-01-01",
+  "end_date": "2025-10-01",
+  "total_symbols": 100,
+  "processed_symbols": 100,
+  "skipped_symbols": 0,
+  "success_rate": 100.0,
+  "result": {
+    "total_symbols": 100,
+    "processed_symbols": 100,
+    "skipped_symbols": 0,
+    "total_calculations": 249154,
+    "total_skipped": 0,
+    "results": [
+      {
+        "symbol": "ACB",
+        "success": true,
+        "calculations_count": 2927,
+        "data_points": 2927
+      },
+      {
+        "symbol": "ANV",
+        "success": true,
+        "calculations_count": 2925,
+        "data_points": 2925
+      },
+      {
+        "symbol": "BCM",
+        "success": true,
+        "calculations_count": 1882,
+        "data_points": 1882
+      },
+      {
+        "symbol": "BID",
+        "success": true,
+        "calculations_count": 2914,
+        "data_points": 2914
+      },
+      {
+        "symbol": "BMP",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "BSI",
+        "success": true,
+        "calculations_count": 2915,
+        "data_points": 2915
+      },
+      {
+        "symbol": "BVH",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "BWE",
+        "success": true,
+        "calculations_count": 2049,
+        "data_points": 2049
+      },
+      {
+        "symbol": "CII",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "CMG",
+        "success": true,
+        "calculations_count": 2915,
+        "data_points": 2915
+      },
+      {
+        "symbol": "CTD",
+        "success": true,
+        "calculations_count": 2917,
+        "data_points": 2917
+      },
+      {
+        "symbol": "CTG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "CTR",
+        "success": true,
+        "calculations_count": 1969,
+        "data_points": 1969
+      },
+      {
+        "symbol": "CTS",
+        "success": true,
+        "calculations_count": 2926,
+        "data_points": 2926
+      },
+      {
+        "symbol": "DBC",
+        "success": true,
+        "calculations_count": 2925,
+        "data_points": 2925
+      },
+      {
+        "symbol": "DCM",
+        "success": true,
+        "calculations_count": 2627,
+        "data_points": 2627
+      },
+      {
+        "symbol": "DGC",
+        "success": true,
+        "calculations_count": 2737,
+        "data_points": 2737
+      },
+      {
+        "symbol": "DGW",
+        "success": true,
+        "calculations_count": 2538,
+        "data_points": 2538
+      },
+      {
+        "symbol": "DIG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "DPM",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "DSE",
+        "success": true,
+        "calculations_count": 315,
+        "data_points": 315
+      },
+      {
+        "symbol": "DXG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "DXS",
+        "success": true,
+        "calculations_count": 1050,
+        "data_points": 1050
+      },
+      {
+        "symbol": "EIB",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "EVF",
+        "success": true,
+        "calculations_count": 1777,
+        "data_points": 1777
+      },
+      {
+        "symbol": "FPT",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "FRT",
+        "success": true,
+        "calculations_count": 1859,
+        "data_points": 1859
+      },
+      {
+        "symbol": "FTS",
+        "success": true,
+        "calculations_count": 2175,
+        "data_points": 2175
+      },
+      {
+        "symbol": "GAS",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "GEE",
+        "success": true,
+        "calculations_count": 859,
+        "data_points": 859
+      },
+      {
+        "symbol": "GEX",
+        "success": true,
+        "calculations_count": 2480,
+        "data_points": 2480
+      },
+      {
+        "symbol": "GMD",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "GVR",
+        "success": true,
+        "calculations_count": 1877,
+        "data_points": 1877
+      },
+      {
+        "symbol": "HAG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "HCM",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "HDB",
+        "success": true,
+        "calculations_count": 1930,
+        "data_points": 1930
+      },
+      {
+        "symbol": "HDC",
+        "success": true,
+        "calculations_count": 2902,
+        "data_points": 2902
+      },
+      {
+        "symbol": "HDG",
+        "success": true,
+        "calculations_count": 2891,
+        "data_points": 2891
+      },
+      {
+        "symbol": "HHV",
+        "success": true,
+        "calculations_count": 1307,
+        "data_points": 1307
+      },
+      {
+        "symbol": "HPG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "HSG",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "HT1",
+        "success": true,
+        "calculations_count": 2927,
+        "data_points": 2927
+      },
+      {
+        "symbol": "IMP",
+        "success": true,
+        "calculations_count": 2909,
+        "data_points": 2909
+      },
+      {
+        "symbol": "KBC",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "KDC",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "KDH",
+        "success": true,
+        "calculations_count": 2927,
+        "data_points": 2927
+      },
+      {
+        "symbol": "KOS",
+        "success": true,
+        "calculations_count": 1945,
+        "data_points": 1945
+      },
+      {
+        "symbol": "LPB",
+        "success": true,
+        "calculations_count": 1986,
+        "data_points": 1986
+      },
+      {
+        "symbol": "MBB",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "MSB",
+        "success": true,
+        "calculations_count": 1190,
+        "data_points": 1190
+      },
+      {
+        "symbol": "MSN",
+        "success": true,
+        "calculations_count": 2929,
+        "data_points": 2929
+      },
+      {
+        "symbol": "MWG",
+        "success": true,
+        "calculations_count": 2803,
+        "data_points": 2803
+      },
+      {
+        "symbol": "NAB",
+        "success": true,
+        "calculations_count": 1236,
+        "data_points": 1236
+      },
+      {
+        "symbol": "NKG",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "NLG",
+        "success": true,
+        "calculations_count": 2912,
+        "data_points": 2912
+      },
+      {
+        "symbol": "NT2",
+        "success": true,
+        "calculations_count": 2667,
+        "data_points": 2667
+      },
+      {
+        "symbol": "OCB",
+        "success": true,
+        "calculations_count": 1164,
+        "data_points": 1164
+      },
+      {
+        "symbol": "PAN",
+        "success": true,
+        "calculations_count": 2903,
+        "data_points": 2903
+      },
+      {
+        "symbol": "PC1",
+        "success": true,
+        "calculations_count": 2215,
+        "data_points": 2215
+      },
+      {
+        "symbol": "PDR",
+        "success": true,
+        "calculations_count": 2910,
+        "data_points": 2910
+      },
+      {
+        "symbol": "PHR",
+        "success": true,
+        "calculations_count": 2902,
+        "data_points": 2902
+      },
+      {
+        "symbol": "PLX",
+        "success": true,
+        "calculations_count": 2110,
+        "data_points": 2110
+      },
+      {
+        "symbol": "PNJ",
+        "success": true,
+        "calculations_count": 2918,
+        "data_points": 2918
+      },
+      {
+        "symbol": "POW",
+        "success": true,
+        "calculations_count": 1883,
+        "data_points": 1883
+      },
+      {
+        "symbol": "PPC",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "PTB",
+        "success": true,
+        "calculations_count": 2925,
+        "data_points": 2925
+      },
+      {
+        "symbol": "PVD",
+        "success": true,
+        "calculations_count": 5606,
+        "data_points": 5606
+      },
+      {
+        "symbol": "PVT",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "REE",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "SAB",
+        "success": true,
+        "calculations_count": 2201,
+        "data_points": 2201
+      },
+      {
+        "symbol": "SBT",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "SCS",
+        "success": true,
+        "calculations_count": 2046,
+        "data_points": 2046
+      },
+      {
+        "symbol": "SHB",
+        "success": true,
+        "calculations_count": 2927,
+        "data_points": 2927
+      },
+      {
+        "symbol": "SIP",
+        "success": true,
+        "calculations_count": 1572,
+        "data_points": 1572
+      },
+      {
+        "symbol": "SJS",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "SSB",
+        "success": true,
+        "calculations_count": 1130,
+        "data_points": 1130
+      },
+      {
+        "symbol": "SSI",
+        "success": true,
+        "calculations_count": 2928,
+        "data_points": 2928
+      },
+      {
+        "symbol": "STB",
+        "success": true,
+        "calculations_count": 1400,
+        "data_points": 1400
+      },
+      {
+        "symbol": "SZC",
+        "success": true,
+        "calculations_count": 1675,
+        "data_points": 1675
+      },
+      {
+        "symbol": "TCB",
+        "success": true,
+        "calculations_count": 1833,
+        "data_points": 1833
+      },
+      {
+        "symbol": "TCH",
+        "success": true,
+        "calculations_count": 2245,
+        "data_points": 2245
+      },
+      {
+        "symbol": "TLG",
+        "success": true,
+        "calculations_count": 2811,
+        "data_points": 2811
+      },
+      {
+        "symbol": "TPB",
+        "success": true,
+        "calculations_count": 1860,
+        "data_points": 1860
+      },
+      {
+        "symbol": "VCB",
+        "success": true,
+        "calculations_count": 2926,
+        "data_points": 2926
+      },
+      {
+        "symbol": "VCG",
+        "success": true,
+        "calculations_count": 2925,
+        "data_points": 2925
+      },
+      {
+        "symbol": "VCI",
+        "success": true,
+        "calculations_count": 2055,
+        "data_points": 2055
+      },
+      {
+        "symbol": "VGC",
+        "success": true,
+        "calculations_count": 2465,
+        "data_points": 2465
+      },
+      {
+        "symbol": "VHC",
+        "success": true,
+        "calculations_count": 2918,
+        "data_points": 2918
+      },
+      {
+        "symbol": "VHM",
+        "success": true,
+        "calculations_count": 1841,
+        "data_points": 1841
+      },
+      {
+        "symbol": "VIB",
+        "success": true,
+        "calculations_count": 2169,
+        "data_points": 2169
+      },
+      {
+        "symbol": "VIC",
+        "success": true,
+        "calculations_count": 2926,
+        "data_points": 2926
+      },
+      {
+        "symbol": "VIX",
+        "success": true,
+        "calculations_count": 2894,
+        "data_points": 2894
+      },
+      {
+        "symbol": "VJC",
+        "success": true,
+        "calculations_count": 2145,
+        "data_points": 2145
+      },
+      {
+        "symbol": "VND",
+        "success": true,
+        "calculations_count": 2916,
+        "data_points": 2916
+      },
+      {
+        "symbol": "VNM",
+        "success": true,
+        "calculations_count": 2926,
+        "data_points": 2926
+      },
+      {
+        "symbol": "VPB",
+        "success": true,
+        "calculations_count": 2027,
+        "data_points": 2027
+      },
+      {
+        "symbol": "VPI",
+        "success": true,
+        "calculations_count": 1950,
+        "data_points": 1950
+      },
+      {
+        "symbol": "VRE",
+        "success": true,
+        "calculations_count": 1968,
+        "data_points": 1968
+      },
+      {
+        "symbol": "VSC",
+        "success": true,
+        "calculations_count": 2927,
+        "data_points": 2927
+      },
+      {
+        "symbol": "VTP",
+        "success": true,
+        "calculations_count": 1703,
+        "data_points": 1703
+      }
+    ]
+  }
+}
